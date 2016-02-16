@@ -1,0 +1,92 @@
+/* universal styles */
+
+/* css reset */
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* global styles */
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/* page styles */
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mainheader h1 {
+	position: absolute;
+	top:-9999em;
+	left:-9999em;
+}
+
+body {
+	font-family: "avenir next", sans-serif;
+	color: black;
+	background: rgba(148,135,135,0.7);
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	margin-left: 1%;
+	margin-top: 40px;
+	color: black;
+	text-shadow: 2px 2px rgba(255,255,255,.8);
+}
+
+.box {
+	background: rgba(255,255,255,0.65);
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    line-height: 22px;
+    width: 60%;
+    margin-right: 8%;
+    margin-top: 75px;
+    box-shadow: 2px 2px rgba(144,142,142,.5);
+}
+
+mark {
+	background: rgba(0,0,0,.3);
+}
+
+ .translated:hover {
+	  	transform: translateX(0px) translateY(300px);
+	  	transition-duration: 5s;
+	  } 
+
+.envelope {
+	margin-top: 10px;
+    margin-right: -60%;
+    font-size: 40px;
+}
+
+a:link {
+	color:purple;
+	text-decoration: none;}
+a:visited {
+	color: purple;}
+a:hover {
+	color:red;
+	text-decoration: none:;}
